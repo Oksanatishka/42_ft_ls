@@ -3,6 +3,8 @@ Resources:
 - http://cvsweb.openbsd.org/cgi-bin/cvsweb/src/bin/ls/
 - https://hackernoon.com/speedrunning-code-the-3-things-i-re-learnt-while-recoding-a-basic-ls-in-c-d559b0f1a92b
 - https://www.lifewire.com/uses-of-linux-ls-command-4054227
+- ACL https://www.geeksforgeeks.org/access-control-listsacl-linux/
+
 ==================================================
 total 11
 drwxr-xr-x       3 ROOT   SYS1    0 Mar 12 19:32 tmp
