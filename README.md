@@ -1,9 +1,11 @@
 # 42_ft_ls
 This project will make you recode the command “ls”
 
+
 Basic functions:
 
 -l, -R, -a, -r, -t.
+
 
 Bonus:
 
@@ -11,7 +13,8 @@ Bonus:
 
 2) Management of columns and ACL management.
 
-Installation
+
+Installation:
 
 $> make
 
