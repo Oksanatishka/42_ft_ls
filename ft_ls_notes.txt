@@ -3,7 +3,12 @@ Resources:
 - http://cvsweb.openbsd.org/cgi-bin/cvsweb/src/bin/ls/
 - https://hackernoon.com/speedrunning-code-the-3-things-i-re-learnt-while-recoding-a-basic-ls-in-c-d559b0f1a92b
 - https://www.lifewire.com/uses-of-linux-ls-command-4054227
+
 - ACL https://www.geeksforgeeks.org/access-control-listsacl-linux/
+
+- http://man7.org/linux/man-pages/man1/ls.1.html
+- http://stackoverflow.com/questions/4674006/set-specific-bit-in-byte
+- https://stackoverflow.com/questions/1022957/getting-terminal-width-in-c
 
 ==================================================
 total 11
