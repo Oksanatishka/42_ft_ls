@@ -15,6 +15,15 @@ total 11
 indicates the total number of file system blocks occupied by files in the directory 
 (in 512-byte chunks or 1024-bytes if –k option is used).
 
+The Long Format
+The following information is displayed for each file: 
+- mode, 
+- number of links, 
+- owner (though not for -g), 
+- group, 
+- size in bytes, 
+- time of last modification (“mmm dd HH:MM”), 
+- and the pathname.
 ==================================================
 
 Libft
