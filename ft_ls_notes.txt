@@ -1,3 +1,43 @@
+ft_ls is first Unix project!
+ls displays the list of files inside a directory or information about a file.
+
+ls -1   // one file per line followed by a newline
+ls -l   // for "long display" + ls -l name_of_file
+ls -t   // sorts by last modification date
+ls -r   // makes it reverse
+ls -R   // recursive "ls" meaning ls from a directory as well as all the sub directory included in it.
+ls -a   // ls all which displays every files including hidden files i.e. file names beginning by a dot.
+
+You have to manage a lot of file types (all of them are described in the MAN - "man ls"):
+b     Block special file.
+c     Character special file.
+d     Directory.
+l     Symbolic link.
+s     Socket link.
+p     FIFO. ("named pipe" files)
+-     Regular file.
+
+> manage permissions
+> manage "major and minor device number"
+> manage file type "b" and "c" which only exists in /dev (these types are specific to devices).
+> ls -R /usr (usr is a very crazy directory - it's too big)
+> bonus flags: -g, -d, -u
+> optimised code:
+        - did you choose the right data structures?
+        - are you using the right sorting algorithm?
+        - is it CPU efficient?
+        - memory efficient etc.
+
+
+Learn some new functions, for example :
+◦ opendir / readdir / closedir
+◦ stat / lstat
+◦ getpwuid / getgrgid
+◦ time / ctime
+◦ readlink
+◦ perrror / strerror
+
+
 Resources:
 - https://www.go4expert.com/articles/developing-linux-utility-ls-c-t27426/
 - http://cvsweb.openbsd.org/cgi-bin/cvsweb/src/bin/ls/
@@ -53,6 +93,17 @@ Libft
 - get_next_line.c
 
 ==================================================
+
+Solution:
+1. List a repertory
+• Write a program that uses the opendir, readdir and closedir functions to open
+a folder and list the names of its files on the standard output.
+2. Get a file’s data
+• Write a program which takes a file as a parameter and uses, among others, the stat
+function to get the file’s data and display them on screen.
+• You will have to use several functions, listed at the top of this pdf, to interpret
+properly the data returned by the stat function!
+
 
 1) parsing f-n: Detect flag, it should be '-' sign + options: "alRrtdG1Ss" + handle errors
 
